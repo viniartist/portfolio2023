@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0,0,256,256"
+   width="48px"
+   height="48px"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="icons8-youtube-48.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.9166667"
+     inkscape:cx="23.898305"
+     inkscape:cy="24"
+     inkscape:window-width="1312"
+     inkscape:window-height="449"
+     inkscape:window-x="50"
+     inkscape:window-y="90"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <path
+     id="path1-9"
+     style="mix-blend-mode:normal;fill:#ffffff;stroke-width:10.6667"
+     d="M 64 32 C 46.325346 32 32 46.325346 32 64 L 32 192 C 32 209.67465 46.325346 224 64 224 L 192 224 C 209.67465 224 224 209.67465 224 192 L 224 64 C 224 46.325346 209.67465 32 192 32 L 64 32 z M 106.66667 91.052083 L 170.66667 128 L 106.66667 164.94792 L 106.66667 91.052083 z " />
+  <g
+     fill="#ffffff"
+     fill-rule="nonzero"
+     stroke="none"
+     stroke-width="1"
+     stroke-linecap="butt"
+     stroke-linejoin="miter"
+     stroke-miterlimit="10"
+     stroke-dasharray=""
+     stroke-dashoffset="0"
+     font-family="none"
+     font-weight="none"
+     font-size="none"
+     text-anchor="none"
+     style="mix-blend-mode:normal;fill:#ff2a2a"
+     id="g2">
+    <g
+       transform="scale(10.66667,10.66667)"
+       id="g1"
+       style="fill:#ff2a2a" />
+  </g>
+</svg>
