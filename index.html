@@ -28,14 +28,24 @@
         <ul class="nav-links">
             <li><a href="#animation">Animation</a></li>
             <li><a href="#digital-art">Digital Art</a></li>
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Art</a></li>
-            <li><a href="#">About Me</a></li>
+            <li><a href="#design">Design</a></li>
+            <li><a href="#art">Art</a></li>
+            <li><a href="#photo">Photo</a></li>
+            <li><a href="#more-info">More Info</a></li>
+        </ul>    
+
+         <!-- social links -->
+          
+        <ul class="social-links">
+            <li class="social"><a href="https://ca.linkedin.com/in/viniciuskran" target="_blank"><img src="img/icons/icons8-in-48.svg" alt="Contact"></a></li>
+            <li class="social"><a href="https://www.instagram.com/vini_artist/" target="_blank"><img src="img/icons/icons8-instagram-24.svg" alt="Contact"></a></li>
+            <li class="social"><a href="https://www.tiktok.com/@vini_artist_" target="_blank"><img src="img/icons/icons8-tiktok-24.svg" alt="Contact"></a></li>
+            <li class="social"><a href="https://www.youtube.com/@vini_artist" target="_blank"><img src="img/icons/icons8-youtube-24.svg" alt="Contact"></a></li>
         </ul>
         <div class="hamburger">&#9776;</div>
     </nav>
 
-    <!-- Ana's version -->
+    <!-- Main banner / header -->
 
     <div class="banner-home">
         <div class="banner-info">
@@ -44,13 +54,29 @@
                 Hello! I'm Vinicius Kran, a Visual Artist and Graphic Designer from Brazil with over 15 years of experience in branding, animation, and illustration. Now based in Winnipeg, Canada, I specialize in animation, illustration, and graphic design. Here, you'll find a selection of my latest work—take a look around!
             </p>
 
-            <button class="cta-showheel">
+            <button class="cta-showheel" id="openModalBtn">
                 <span class="material-symbols-outlined">
                     play_arrow
                     </span>
                 Play Showreel
             </button>
 
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="video-container">
+                <iframe id="videoFrame" 
+                    src="https://player.vimeo.com/video/879183810?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                    frameborder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" 
+                    allowfullscreen 
+                    title="2023 Animation Showreel">
+                </iframe>
+            </div>
         </div>
     </div>
 
@@ -63,34 +89,28 @@
         <div class="grid-container">
             <div class="grid-item">
                 <img src="img/animation/port5ok.gif" alt="Artwork 1">
-                <h3>Safe Roads Campaing</h3>
-                <p class="item-description">
-                    Illustration and animation work done for 
-                    <a href="https://www.instagram.com/tv/CWWSOQCFwsx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" style="text-decoration: underline;"> Safe Roads Manitoba</a> as part of their Winter 2021 campaing.
-                </p>
+                
+                <!-- Optional tittle and description. -->
+                
+                <!-- <h3>Project tittle</h3>
+                <p class="item-description">Lorem Ipsum dolor sit amet.</p> -->
+                
             </div>
             <div class="grid-item">
-                <img src="img/animation/port3ok.gif" alt="Artwork 3">
-                <p class="item-description">Artwork 3 description</p>
+                <img src="img/animation/port3ok.gif" alt="Artwork 2"> 
             </div>
             <div class="grid-item">
-                <img src="img/animation/port1ok.gif" alt="Artwork 1">
-                <p class="item-description">Artwork 1 description</p>
+                <img src="img/animation/port6ok.gif" alt="Artwork 3">
             </div>
             <div class="grid-item">
-                <img src="img/animation/port2ok.gif" alt="Artwork 2">
-                <p class="item-description">Artwork 2 description</p>
+                <img src="img/animation/port1ok.gif" alt="Artwork 4">
             </div>
-            
             <div class="grid-item">
-                <img src="img/animation/port4ok.gif" alt="Artwork 4">
-                <p class="item-description">Artwork 4 description</p>
+                <img src="img/animation/port2ok.gif" alt="Artwork 5">
             </div>
-            
             <div class="grid-item">
-                <img src="img/animation/port6ok.gif" alt="Artwork 6">
-                <p class="item-description">Artwork 6 description</p>
-            </div>
+                <img src="img/animation/port4ok.gif" alt="Artwork 6">
+            </div>            
         </div>
     </section>
 
@@ -102,48 +122,280 @@
         <div class="grid-container">
 
             <div class="grid-item">
-                <img src="img/digitalart/ballonslife.jpg" alt="Artwork 3">
-                <p class="item-description">Artwork 3 description</p>
+
+                <!-- Optional tittle and description. -->
+                
+                <!-- <h3>Project tittle</h3>
+                <p class="item-description">Lorem Ipsum dolor sit amet.</p> -->
+
+                <img src="img/digitalart/ballonslife.jpg" alt="Artwork 1">
             </div>
             <div class="grid-item">
-            
-                    <img src="img/digitalart/antie.jpg" alt="Artwork 1">
-                    <p class="item-description">Artwork 1 description</p>
-                
+                <img src="img/digitalart/saferoadsjpg.jpg" alt="Artwork 2">
             </div>
             <div class="grid-item">
-                
-                    <img src="img/digitalart/picole1x1.jpg" alt="Artwork 2">
-                    <p class="item-description">Artwork 2 description</p>
-                
-            </div>
-            
-            <div class="grid-item">
-            
-                    <img src="img/digitalart/girl.jpg" alt="Artwork 4">
-                    <p class="item-description">Artwork 4 description</p>
-                
+                <img src="img/digitalart/ups.png" alt="Artwork 3">
             </div>
             <div class="grid-item">
-            
-                    <img src="img/digitalart/ups.png" alt="Artwork 5">
-                    <p class="item-description">Artwork 5 description</p>
-                
+                <img src="img/digitalart/antie.jpg" alt="Artwork 4">
             </div>
             <div class="grid-item">
-            
-                    <img src="img/digitalart/saferoadsjpg.jpg" alt="Artwork 6">
-                    <p class="item-description">Artwork 6 description</p>
-                
+                <img src="img/digitalart/picole1x1.jpg" alt="Artwork 5">
             </div>
+            <div class="grid-item">
+                <img src="img/digitalart/girl.jpg" alt="Artwork 6">
+            </div>
+            
+            
         </div>
     </section>
 
-    
+    <section class="gallery" id="design">
+        <h2>Design</h2>
+        <!-- <hr class="divider"> -->
+        <div class="grid-container"></div>
+
+        <div class="grid-container">
+
+            <div class="grid-item">
+
+                <!-- Optional tittle and description. -->
+                
+                <!-- <h3>Project tittle</h3>
+                <p class="item-description">Lorem Ipsum dolor sit amet.</p> -->
+
+                <img src="img/design/mix1x1.jpg" alt="Artwork 1">
+            </div>
+            <div class="grid-item">
+                <img src="img/design/great1x1.jpg" alt="Artwork 2">
+            </div>
+            <div class="grid-item">
+                <img src="img/design/upshope.jpg" alt="Artwork 3">
+            </div>
+            <div class="grid-item">
+                <img src="img/design/mmdf1x1.jpg" alt="Artwork 4">
+            </div>
+            <div class="grid-item">
+                <img src="img/design/flexitol1x1.jpg" alt="Artwork 5">
+            </div>
+            <div class="grid-item">
+                <img src="img/design/day1x1.jpg" alt="Artwork 6">
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section class="gallery" id="art">
+        <h2>Art</h2>
+        <!-- <hr class="divider"> -->
+        <div class="grid-container"></div>
+
+        <div class="grid-container">
+
+            <div class="grid-item">
+
+                <!-- Optional tittle and description. -->
+                
+                <!-- <h3>Project tittle</h3>
+                <p class="item-description">Lorem Ipsum dolor sit amet.</p> -->
+
+                <img src="img/fineart/card.jpg" alt="Artwork 1">
+            </div>
+            <div class="grid-item">
+                <img src="img/fineart/drraw.jpg" alt="Artwork 2">
+            </div>
+            <div class="grid-item">
+                <img src="img/fineart/oil.jpg" alt="Artwork 3">
+            </div>
+            <div class="grid-item">
+                <img src="img/fineart/ink.jpg" alt="Artwork 4">
+            </div>
+            <div class="grid-item">
+                <img src="img/fineart/pen.jpg" alt="Artwork 5">
+            </div>
+            <div class="grid-item">
+                <img src="img/fineart/rita.jpg" alt="Artwork 6">
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section class="gallery" id="photo">
+        <h2>Photography</h2>
+        <!-- <hr class="divider"> -->
+        <div class="grid-container"></div>
+
+        <div class="grid-container">
+
+            <div class="grid-item">
+
+                <!-- Optional tittle and description. -->
+                
+                <!-- <h3>Project tittle</h3>
+                <p class="item-description">Lorem Ipsum dolor sit amet.</p> -->
+                <img src="img/photo/player1x1.jpg" alt="Artwork 1">
+            </div>
+            <div class="grid-item">
+                <img src="img/photo/snake1x1.jpg" alt="Artwork 2">
+            </div>
+            <div class="grid-item">
+                <img src="img/photo/fire1x1.jpg" alt="Artwork 3">
+            </div>
+            <div class="grid-item">
+                <img src="img/photo/city1x1.jpg" alt="Artwork 4">
+            </div>
+            <div class="grid-item">
+                <img src="img/photo/dog1x1.jpg" alt="Artwork 5">
+            </div>
+            <div class="grid-item">
+                <img src="img/photo/hotel1x1.jpg" alt="Artwork 6">
+            </div>
+            
+            
+        </div>
+    </section>
+
+        <section class="more-info-section" id="more-info">
+            <h2>More Info</h2>
+            <div class="responsive-grid-container">
+                <div class="responsive-grid-item">
+                    <img src="img/projects/post.jpg" alt="Twitter" class="rounded-image">
+                    <div class="overlay"></div>
+                    <a href="https://twitter.com/vini_artist" target="_blank">
+                        <div class="hover-text">Post-it Doodling <span id="sub">Twitter / X</span></div>
+                    </a>
+                </div>
+                <div class="responsive-grid-item">
+                    <img src="img/projects/pens.jpg" alt="Tiktok" class="rounded-image">
+                    <div class="overlay"></div>
+                    <a href="https://www.tiktok.com/@vini_artist_" target="_blank">
+                    <div class="hover-text">Sketchbook Drawing <span id="sub">TikTok</span></div>
+                    </a>
+                </div>
+                <div class="responsive-grid-item">
+                    <img src="img/projects/club.jpg" alt="YouTube" class="rounded-image">
+                    <div class="overlay"></div>
+                    <a href="https://www.youtube.com/@vini_artist" target="_blank">
+                    <div class="hover-text">Nigh drawing club <span id="sub">YouTube</span></div>
+                    </a>
+                </div>
+                <div class="responsive-grid-item">
+                    <img src="img/projects/instagram.jpg" alt="Instagram" class="rounded-image">
+                    <div class="overlay"></div>
+                    <a href="https://www.instagram.com/vini_artist/" target="_blank">
+                    <div class="hover-text">Instagram <span id="sub">Headquarters</span></div>
+                    </a>
+                </div>
+                <div class="responsive-grid-item">
+                    <img src="img/projects/class.jpg" alt="Responsive Image 5" class="rounded-image">
+                    <div class="overlay"></div>
+                    <a href="#" target="_blank">
+                    <div class="hover-text">Drawing Classes <span id="sub">Coming Soon</span></div>
+                    </a>
+                </div>
+                <div class="responsive-grid-item">
+                    <img src="img/projects/shop.jpg" alt="Responsive Image 6" class="rounded-image">
+                    <div class="overlay"></div>
+                    <a href="#" target="_blank">
+                    <div class="hover-text">Store <span id="sub">Coming Soon</span></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Repeat for other items -->
+
+    <section class="more-info" id="">
+        <h2>Thanks for your interest in my work! ❤️</h2>
+            <p class="contact">
+                If you'd like to learn more about my professional background and skills, feel free to reach out via email at 
+                <a href="mailto:hi@viniartist.com" target="_blank">hi@viniartist.com</a> or check out my detailed resume linked below.  
+                You can also visit my <a style="text-decoration: underline;" href="https://ca.linkedin.com/in/viniciuskran" target="_blank">LinkedIn</a> profile for a deeper look into my experience.
+             </p>
 
 
+        <button class="cta-resume">
+            <a href="img/ViniciusKran_Resume.pdf" target="_blank">Download Resume</a>
+        </button>
+    </section>
 
-    <!-- scripts -->
+<!-- Skills & Tools -->
+
+    <section class="chips-section">
+        <h2>Digital Tools & Softwares</h2>
+        <div class="chips-container">
+            <div class="chip">Adobe After Effects</div>
+            <div class="chip">Adobe Premiere</div>
+            <div class="chip">Adobe Illustrator</div>
+            <div class="chip">Adobe Photoshop</div>
+            <div class="chip">Adobe InDesign</div>
+            <div class="chip">Affinity Photo2</div>
+            <div class="chip">Affinity Designer2</div>
+            <div class="chip">Affinity Publisher2</div>
+            <div class="chip">Blender 3D</div>
+            <div class="chip">DaVinci Resolve</div>
+            <div class="chip">Procreate</div>
+            <div class="chip">Procreate Dreams</div>
+            <div class="chip">ToonSquid</div>
+            <div class="chip">Nomad</div>
+            <div class="chip">Koala</div>
+            <div class="chip">Cubasis3</div>
+        </div>
+    </section>
+
+    <section class="chips-section">
+        <h2>Traditional & Physical Tools</h2>
+        <div class="chips-container">
+            <div class="chip">MacBook Pro</div>
+            <div class="chip">iPad Pro</div>
+            <div class="chip">Camera: Sony ZV-E10</div>
+            <div class="chip">Traveler's Notebook</div>
+            <div class="chip">Canvas</div>
+            <div class="chip">Watercolor Paper</div>
+            <div class="chip">Post-It</div>
+            <div class="chip">Ink Pen</div>
+            <div class="chip">Charcoal</div>
+            <div class="chip">Oil Painting</div>
+            <div class="chip">Gouache Paint</div>
+            <div class="chip">Watercolor Paint</div>
+            
+        </div>
+    </section>
+
+    <section class="more-info">
+        <h2>Professional Experience & Contributions</h2>
+        <div class="info-item">
+            <h3>Animator & Graphic Designer</h3>
+            <h4>🇨🇦 Believeco (2019 - 2023)</h4>
+            <hr class="divider">
+        </div>
+        <div class="info-item">
+            <h3>Senior Graphic Designer</h3>
+            <h4>🇧🇷 Soluti (2017 - 2018)</h4>
+            <hr class="divider">
+        </div>
+        <div class="info-item">
+            <h3>Senior Graphic Designer</h3>
+            <h4>🇧🇷 Tron (2011 - 2017)</h4>
+            <hr class="divider">
+        </div>
+        <div class="info-item">
+            <h3>Freelance Designer and Artist</h3>
+            <h4>🌍 Multiple (2009 - Present)</h4>
+            <hr class="divider">
+        </div>
+    </section>
+
+
+<!-- Footer -->
+
+    <footer class="footer">
+        <p>&copy; 2025 Vinicius Kran. All rights reserved.</p>
+    </footer>
+
+<!-- scripts -->
   
     <script src="js/scripts.js"></script>
     <script src="js/lightbox-plus-jquery.min.js"></script>
@@ -172,15 +424,6 @@
     </script>
 
     <script>
-        const topLink = document.querySelector('.top-link');
-
-        window.onscroll = function() {
-            if (window.scrollY > 300) {
-                topLink.style.display = 'block';
-            } else {
-                topLink.style.display = 'block';
-            }
-
             topLink.addEventListener("click", function (event) {
                 event.preventDefault();
                 window.scrollTo({
@@ -188,7 +431,35 @@
                     behavior: "smooth"
                 });
             })
-        };
+    </script>
+
+    <!-- Video modal script -->
+
+    <script>
+        const modal = document.getElementById("videoModal");
+        const openModalBtn = document.getElementById("openModalBtn");
+        const closeModalBtn = document.querySelector(".close");
+        const videoFrame = document.getElementById("videoFrame");
+
+        openModalBtn.addEventListener("click", () => {
+            modal.style.display = "flex";
+        });
+
+        closeModalBtn.addEventListener("click", () => {
+            modal.style.display = "none";
+            stopVideo();
+        });
+
+        window.addEventListener("click", (e) => {
+            if (e.target === modal) {
+                modal.style.display = "none";
+                stopVideo();
+            }
+        });
+
+        function stopVideo() {
+            videoFrame.src = videoFrame.src; // Reset src to stop video playback
+        }
     </script>
 
 </body>
