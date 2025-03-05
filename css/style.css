@@ -25,6 +25,14 @@ header {
   z-index: 9998;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
 h2 {
   color: white;
   text-align: center;
